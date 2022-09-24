@@ -1,8 +1,8 @@
 {
-  "name": "hydpy-gatsby-demo",
+  "name": "PyConf Hyderabad 2022",
   "version": "1.0.0",
   "private": true,
-  "description": "hydpy-gatsby-demo",
+  "description": "PyConf Hyderabad 2022",
   "keywords": [
     "gatsby"
   ],
@@ -11,8 +11,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.3",
@@ -28,11 +27,5 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "sass": "^1.55.0"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.45",
-    "@types/react": "^18.0.20",
-    "@types/react-dom": "^18.0.6",
-    "typescript": "^4.8.3"
   }
 }
