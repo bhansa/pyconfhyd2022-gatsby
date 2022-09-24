@@ -1,7 +1,8 @@
-import * as React from "react";
-import "../assets/stylesheets/application.scss";
+import React from "react";
+import "../static/stylesheets/application.scss";
 import {Header} from '../components/header';
-import HeroBanner from '../components/heroBanner';
+import {HeroBanner} from '../components/heroBanner';
+import {SEO} from "../components/seo";
 
 const IndexPage = () => {
   return (
@@ -14,4 +15,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (<SEO />)

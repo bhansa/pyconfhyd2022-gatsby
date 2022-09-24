@@ -1,7 +1,12 @@
 module.exports  = {
   siteMetadata: {
     title: `PyConf Hyderabad 2022`,
-    siteUrl: `https://pyconf.hydpy.org`,
+    description: `PyConf Hyderabad is one of the biggest regional conference in Hyderabad, after back to back 
+    succesful events, Hyderabad Python group is back with 2022 Edition! PyConf Hyderabad 
+    `,
+    twitterUsername: `@hydpython`, 
+    image: `/images/icon.png`,
+    siteUrl: `https://pyconf.hydpy.org/2022`,
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -10,20 +15,12 @@ module.exports  = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/assets/images/icon.png",
+        icon: "src/static/images/icon.png",
       },
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "src/assets/images/",
-      },
-      __key: "images",
-    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
