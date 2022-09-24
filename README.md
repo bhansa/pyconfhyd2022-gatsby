@@ -4,9 +4,7 @@
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+1.  **Clone and start developing**
 
     ```shell
     cd pyconfhyd2022-gatsby
