@@ -1,10 +1,10 @@
 import React from "react";
 
-import logo from "../assets/images/pyconf_logo.svg";
-import bgImage from "../assets/images/bg_image.webp";
+import logo from "../static/images/pyconf_logo.svg";
+import bgImage from "../static/images/bg_image.webp";
 import Button from './button';
 
-export default function HeroBanner() {
+export function HeroBanner() {
   return (
     <>
       <div className="video__wrapper">
