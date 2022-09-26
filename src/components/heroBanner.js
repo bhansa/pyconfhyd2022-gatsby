@@ -11,7 +11,7 @@ export function HeroBanner() {
         <div className="video__overlay" />
         <div className="video__content">
           <div className="logo__main">
-            <img src={logo} width={300} height={300} loading="lazy" />
+            <img src={logo} width={200} height={200} loading="lazy" />
           </div>
           <div className="m-t-20">
             <h3 className="content__desc">PyConf Hyderabad</h3>
