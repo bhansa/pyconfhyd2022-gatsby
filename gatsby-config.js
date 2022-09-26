@@ -15,6 +15,12 @@ module.exports  = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
+        id: `/`,
+        name: `PyConf Hyderabad 2022`,
+        short_name: `PyConf 2022`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        display: `minimal-ui`,
         icon: "src/static/images/icon.png",
       },
     },

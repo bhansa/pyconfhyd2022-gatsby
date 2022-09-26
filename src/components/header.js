@@ -8,7 +8,7 @@ export const Header = ({bg}) => (
     </label>
     <ul className="menu">
       <li>
-        <a>Partners</a>
+        <Link to='/'>Home</Link>
       </li>
       <li>
         <a>Speakers</a>
