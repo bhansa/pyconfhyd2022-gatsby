@@ -74,7 +74,7 @@ jobs:
           cd pyconf-websites
           rm -rf 2022
           mkdir 2022
-          cp ../public/* 2022/
+          cp -r ../public/* 2022/
           git add .
           git commit -m "Github Actions: pyconfhyd2022-gatsby-${GITHUB_RUN_ID}"
           git remote add origin-pages https://bhansa:${{ secrets.API_TOKEN_GITHUB }}@github.com/bhansa/hydpy.github.io.git
