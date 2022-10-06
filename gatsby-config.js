@@ -1,4 +1,5 @@
 module.exports  = {
+  pathPrefix: `/2022`,
   siteMetadata: {
     title: `PyConf Hyderabad 2022`,
     description: `PyConf Hyderabad is one of the biggest regional conference in Hyderabad, after back to back 
